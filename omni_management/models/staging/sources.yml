@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: omnichannel
+    database: root
+    schema: public
+    tables: 
+      - name: channels
+      - name: customers
+      - name: products
+      - name: purchasehistory
+      - name: visithistory
